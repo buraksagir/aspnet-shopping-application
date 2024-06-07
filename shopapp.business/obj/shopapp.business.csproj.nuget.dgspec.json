@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj",
+        "projectName": "shopapp.business",
+        "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj": {
+                "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj"
+              },
+              "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj": {
+                "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj",
+        "projectName": "shopapp.data",
+        "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj": {
+                "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+        "projectName": "shopapp.entity",
+        "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[8.0.0-preview.7.23375.6, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

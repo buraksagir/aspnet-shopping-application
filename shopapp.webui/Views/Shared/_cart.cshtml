@@ -1,0 +1,46 @@
+﻿@model shopapp.entity.Cart
+
+<div class="container">
+    <h2>Sepet</h2>
+
+    @if (Model.CartItems.Count > 0)
+    {
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Miktar</th>
+            <th>Toplam Fiyat</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+        <tr>
+            <td>@item.Product.Name</td>
+            <td>@item.Product.Price.ToString()</td>
+            <td>@item.Quantity</td>
+            <td>@(item.Product.Price * item.Quantity).ToString("c")</td>
+        </tr>
+        }
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="3"><strong>Toplam</strong></td>
+            <td colspan="2"><strong>@Model.CartItems.Sum(i => i.Quantity * i.Product.Price).ToString()</strong></td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <a asp-controller="Checkout" asp-action="Index" class="btn btn-primary">Siparişi Tamamla</a>
+    </div>
+    }
+    else
+    {
+    <div class="alert alert-info" role="alert">
+        Sepetiniz boş.
+    </div>
+    }
+</div>

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "ox+XDaoGa4dmhuHy0BTmEAKmEYD71y+SjFpK92h759JVKjhJFj4HvaNdjQCDhVPeKJZvNTjE9WHF8uQxOGfdDA==",
+  "success": true,
+  "projectFilePath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.5\\microsoft.entityframeworkcore.analyzers.8.0.5.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\microsoft.netcore.platforms\\8.0.0-preview.7.23375.6\\microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512",
+    "C:\\Users\\burak\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
