@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = shopapp.entity
-build_property.ProjectDir = C:\src\projects\aspnetshopapp\shopapp.entity\
+build_property.ProjectDir = C:\src\projects\aspnet-shopping-application\shopapp.entity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

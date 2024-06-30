@@ -16,12 +16,6 @@ builder.Services.AddScoped<IProductService, ProductManager>();
 builder.Services.AddScoped<ICategoryRepository, EfCoreCategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryManager>();
 builder.Services.AddScoped<IUserRepository, EfCoreUserRepository>();
-// builder.Services.AddIdentity<User, IdentityRole>(options =>
-// {
-//    //identity ayarları
-// })
-//     .AddEntityFrameworkStores<ShopContext>()
-//     .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -38,11 +32,14 @@ if (builder.Environment.IsDevelopment())
     }
     );
 }
-// app.UseAuthentication();
-// app.UseAuthorization();
+
+
+
 app.MapControllerRoute(name: "search", pattern: "search", defaults: new { controller = "Shop", action = "search" });
 app.MapControllerRoute(name: "productdetails", pattern: "{url}", defaults: new { controller = "Shop", action = "details" });
 app.MapControllerRoute(name: "products", pattern: "products/{category?}", defaults: new { controller = "Shop", action = "list" });
+app.MapControllerRoute(name: "adminproductlist", pattern: "admin/products", defaults: new { controller = "Admin", action = "ProductList" });
+app.MapControllerRoute(name: "adminproductlist", pattern: "admin/products/{id?}", defaults: new { controller = "Admin", action = "Edit" });
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -642,11 +642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+      "projectUniqueName": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\shopapp.entity.csproj",
       "projectName": "shopapp.entity",
-      "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+      "projectPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\shopapp.entity.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\obj\\",
+      "outputPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"

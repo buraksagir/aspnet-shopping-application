@@ -17,6 +17,10 @@ namespace shopapp.business.Concrete
         {
             _productRepository.Create(entity);
         }
+        public void Update(Product entity)
+        {
+            _productRepository.Update(entity);
+        }
 
         public void Delete(Product entity)
         {
@@ -61,9 +65,6 @@ namespace shopapp.business.Concrete
         }
 
 
-        public void Update(Product entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

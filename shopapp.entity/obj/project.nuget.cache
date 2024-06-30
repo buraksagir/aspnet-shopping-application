@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ox+XDaoGa4dmhuHy0BTmEAKmEYD71y+SjFpK92h759JVKjhJFj4HvaNdjQCDhVPeKJZvNTjE9WHF8uQxOGfdDA==",
+  "dgSpecHash": "VMc4gKBFls6JzGzPKFHDGVR5gvwpRy+bjZ6Ckwsx6a+r90Cuxy2Gapvfc7RjHN5ENah2nwalH4CZcm+eWE8TYg==",
   "success": true,
-  "projectFilePath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj",
+  "projectFilePath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\shopapp.entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",

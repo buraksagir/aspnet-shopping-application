@@ -1341,11 +1341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj",
+      "projectUniqueName": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.business\\shopapp.business.csproj",
       "projectName": "shopapp.business",
-      "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj",
+      "projectPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.business\\shopapp.business.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\obj\\",
+      "outputPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1360,11 +1360,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj": {
-              "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj"
+            "C:\\src\\projects\\aspnet-shopping-application\\shopapp.data\\shopapp.data.csproj": {
+              "projectPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.data\\shopapp.data.csproj"
             },
-            "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj": {
-              "projectPath": "C:\\src\\projects\\aspnetshopapp\\shopapp.entity\\shopapp.entity.csproj"
+            "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\shopapp.entity.csproj": {
+              "projectPath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.entity\\shopapp.entity.csproj"
             }
           }
         }

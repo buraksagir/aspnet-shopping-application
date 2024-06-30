@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using shopapp.business.Abstract;
 using shopapp.data.Abstract;
-using shopapp.webui.ViewModels;
+using shopapp.webui.Models;
 
 
 namespace shopapp.webui.Controllers

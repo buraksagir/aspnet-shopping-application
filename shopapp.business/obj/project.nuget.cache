@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IRuDtTH4PE5Teo9sNs1hPY6QBVLcmha3mYa387Efb9Dr2XJHAwbqzf+2s3GskGTo2M98yoxh79pjoIdGLSEBeQ==",
+  "dgSpecHash": "5BhZ18IbT6xUoEXUIx95P+o5KaBP/H5rX+0Ll40kUoZjM07MdcVKJlASVH5e0bPQ7puHipuL8sj/zlLIhxXvQQ==",
   "success": true,
-  "projectFilePath": "C:\\src\\projects\\aspnetshopapp\\shopapp.business\\shopapp.business.csproj",
+  "projectFilePath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.business\\shopapp.business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.data.sqlite\\8.0.5\\microsoft.data.sqlite.8.0.5.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.5\\microsoft.data.sqlite.core.8.0.5.nupkg.sha512",

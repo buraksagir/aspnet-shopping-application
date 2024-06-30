@@ -9,99 +9,115 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = shopapp.webui
 build_property.RootNamespace = shopapp.webui
-build_property.ProjectDir = C:\src\projects\aspnetshopapp\shopapp.webui\
+build_property.ProjectDir = C:\src\projects\aspnet-shopping-application\shopapp.webui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\src\projects\aspnetshopapp\shopapp.webui
+build_property.MSBuildProjectDirectory = C:\src\projects\aspnet-shopping-application\shopapp.webui
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Home/About.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Home/Contact.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Home/Index.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Home/Login.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Home/Register.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/Components/Categories/Default.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/Components/Categories/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmllc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_card.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_card.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_cart.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_categories.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_header.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9oZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_Layout.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_Layout2.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_Layout2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_navbar.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_noproduct.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_noproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ub3Byb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_product.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_search.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shop/Details.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shop/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shop/List.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shop/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/Shop/Search.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Shop/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/_ViewImports.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/src/projects/aspnetshopapp/shopapp.webui/Views/_ViewStart.cshtml]
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

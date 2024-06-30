@@ -1,0 +1,73 @@
+﻿@model ProductListViewModel
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>Admin Products</h1>
+        <hr>
+        <table class="table table-bordered">
+            <thead>
+            <tr style="text-align: center">
+                <td>ID</td>
+                <td>Image</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Verified</td>
+                <td>Homepage</td>
+                <td></td>
+            </tr>
+            </thead>
+            <tbody>
+                @if (Model.Products.Count > 0)
+                {
+                    @foreach (var item in Model.Products)
+                    { 
+                        <tr>
+                            <td style="width: 20px; text-align: center; align-content: center">@item.ProductID</td>
+                            <td style="width: 20px; height: 150px; text-align: center; align-content: center">
+                                <img src="~/images/@item.ImageUrl" alt="itemImage" width="80">
+                            </td>
+                            <td style="width: 150px; text-align: center; align-content: center">@item.Name</td>
+                            <td style="width: 80px; text-align: center; align-content: center">@item.Price</td>
+                            <td style="width: 80px; text-align: center; align-content: center">
+                                @if (item.IsApproved)
+                                {
+                                <i class="fas fa-check-circle" style="color: green;"></i>
+                                }
+                                else
+                                {
+                                <i class="fas fa-times-circle" style="color: red;"></i>
+                                }
+                            </td>
+                            <td style="width: 80px; text-align: center;align-content: center">
+                                @if (item.IsHome)
+                                {
+                                <i class="fas fa-check-circle" style="color: green;"></i>
+                                }
+                                else
+                                {
+                                <i class="fas fa-times-circle" style="color: red;"></i>
+                                }
+                            </td>
+                            <td style="width: 70px; text-align: center; align-content: center">
+                                <a href="/admin/products/@item.ProductID" class="btn btn-primary btn-sm m-lg-3">Edit</a>
+
+                                <form action="/admin/deleteproduct" method="POST" style="display: inline">
+                                    <input type="hidden" name="productId" value="@item.ProductID">
+                                    <button type="submit" class="btn btn-danger btn-sm mr-2">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <div class=" alert alert warning">
+                        <h3>No Products</h3>
+                    </div>   
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

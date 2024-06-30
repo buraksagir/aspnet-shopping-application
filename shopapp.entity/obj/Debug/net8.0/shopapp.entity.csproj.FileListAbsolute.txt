@@ -32,3 +32,16 @@ C:\src\projects\aspnetshopapp\shopapp.entity\obj\Debug\net8.0\refint\shopapp.ent
 C:\src\projects\aspnetshopapp\shopapp.entity\obj\Debug\net8.0\shopapp.entity.pdb
 C:\src\projects\aspnetshopapp\shopapp.entity\obj\Debug\net8.0\ref\shopapp.entity.dll
 C:\src\projects\aspnetshopapp\shopapp.entity\obj\Debug\net8.0\shopapp.entity.csproj.AssemblyReference.cache
+C:\src\projects\aspnet-shopping-application\shopapp.entity\bin\Debug\net8.0\shopapp.entity.deps.json
+C:\src\projects\aspnet-shopping-application\shopapp.entity\bin\Debug\net8.0\shopapp.entity.dll
+C:\src\projects\aspnet-shopping-application\shopapp.entity\bin\Debug\net8.0\shopapp.entity.pdb
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.csproj.AssemblyReference.cache
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.AssemblyInfoInputs.cache
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.AssemblyInfo.cs
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.csproj.CoreCompileInputs.cache
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.sourcelink.json
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.dll
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\refint\shopapp.entity.dll
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\shopapp.entity.pdb
+C:\src\projects\aspnet-shopping-application\shopapp.entity\obj\Debug\net8.0\ref\shopapp.entity.dll

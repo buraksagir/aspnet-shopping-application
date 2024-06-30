@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "18GuuTF8TsQZYvEiT0JvFwIynWUJEl6UaVkogHohzZHVj7s1ppY0UN8K0go4w00kcRZU2OuZwcub3rXOCgCEVA==",
+  "dgSpecHash": "flaOdiyP6BHo6z6H0hCqhNx4S2my3BhujiwxQ87wQAr2J29MUM+fZnpKhNjZia6K9J3t1vPNfWZtQb4h5Kz8Sw==",
   "success": true,
-  "projectFilePath": "C:\\src\\projects\\aspnetshopapp\\shopapp.data\\shopapp.data.csproj",
+  "projectFilePath": "C:\\src\\projects\\aspnet-shopping-application\\shopapp.data\\shopapp.data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

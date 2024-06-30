@@ -20,13 +20,14 @@
             <li class="nav-item">
                 <a href="" class="nav-link">Orders</a>
             </li>
-            <li> <a asp-controller="Cart" asp-action="Index" class="nav-link">Sepet</a></li> 
-            @if (User.Identity.IsAuthenticated)
-            {
-            <span class="navbar-text"> Hoş geldiniz.</span>
-            }
-            else
-            {
+            <li class="nav-item">
+                <a href="/admin/products" class="nav-link">Admin Products</a>
+            </li>
+            <li class="nav-item">
+                <a asp-controller="admin" asp-action="createproduct" class="nav-link">Create Product</a>
+            </li>
+            
+            
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Account
@@ -36,7 +37,7 @@
                     <a class="dropdown-item" href="/home/Register">Register</a>
                 </div>
             </li>
-            }
+            
         </ul>
     </div>
 </div>
