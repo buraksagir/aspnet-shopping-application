@@ -1,0 +1,22 @@
+﻿@model CategoryModel
+
+<h1 class="h3">Edit Category</h1>
+<hr>
+
+<div class="row">
+    <form asp-controller="Admin" asp-action="CategoryEdit" method="POST">
+        <input type="hidden" name="CategoryId" value="@Model.CategoryId">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input type="text" class="form-control" asp-for="Name">
+        </div>
+     
+        <div class="mb-3">
+            <label asp-for="Url" class="form-label"></label>
+            <input type="text" class="form-control" asp-for="Url">
+            <div id="urlHelper" class="form-text">Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" value="Save Category">Save Category</button>
+    </form>
+</div>

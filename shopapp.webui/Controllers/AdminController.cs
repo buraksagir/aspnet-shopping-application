@@ -10,10 +10,12 @@ public class AdminController : Controller
 {
 
     private IProductService _productService;
+    private ICategoryService _categoryService;
 
-    public AdminController(IProductService productService)
+    public AdminController(IProductService productService, ICategoryService categoryService)
     {
         _productService = productService;
+        _categoryService = categoryService;
     }
 
     public IActionResult ProductList()
@@ -25,13 +27,13 @@ public class AdminController : Controller
     }
     
     [HttpGet]
-    public IActionResult CreateProduct()
+    public IActionResult ProductCreate()
     {
         return View();
     }
 
     [HttpPost]
-    public IActionResult CreateProduct(ProductModel model)
+    public IActionResult ProductCreate(ProductModel model)
     {
         var entity = new Product()
         {
@@ -53,9 +55,8 @@ public class AdminController : Controller
         return RedirectToAction("ProductList");
     }
     
-    
     [HttpGet]
-    public IActionResult Edit(int? id)
+    public IActionResult ProductEdit(int? id)
     {
         if (id==null)
         {
@@ -81,9 +82,9 @@ public class AdminController : Controller
         
         return View(model);
     }
-
+    
     [HttpPost]
-    public IActionResult Edit(ProductModel model)
+    public IActionResult ProductEdit(ProductModel model)
     {
         var entity = _productService.GetById(model.ProductId);
         if (entity == null)
@@ -109,8 +110,8 @@ public class AdminController : Controller
         
         return RedirectToAction("ProductList");
     }
-
-    public IActionResult DeleteProduct(int productId)
+    
+    public IActionResult ProductDelete(int productId)
     {
         var entity = _productService.GetById(productId);
         if (entity != null)
@@ -126,5 +127,107 @@ public class AdminController : Controller
 
         TempData["message"] = JsonConvert.SerializeObject(msg);
         return RedirectToAction("ProductList");
+    }
+
+    public IActionResult CategoryList()
+    {
+        return View(new CategoryListViewModel()
+        {
+            Categories = _categoryService.GetAll()
+        });
+    }
+    
+    [HttpGet]
+    public IActionResult CategoryCreate()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult CategoryCreate(CategoryModel model)
+    {
+        var entity = new Category()
+        {
+            Name = model.Name,
+            Url = model.Url,
+        };
+        _categoryService.Create(entity);
+        var msg = new AlertMessage()
+        {
+            Message = $"Category named: {entity.Name} successfully created.",
+            AlertType = "success"
+        };
+
+        TempData["message"] = JsonConvert.SerializeObject(msg);
+        return RedirectToAction("CategoryList");
+    }
+    
+    
+    [HttpGet]
+    public IActionResult CategoryEdit(int? id)
+    {
+        if (id==null)
+        {
+            return NotFound();
+        }
+
+        var entity = _categoryService.GetById((int)id);
+
+        if (entity== null)
+        {
+            return NotFound();
+        }
+
+        var model = new CategoryModel()
+        {
+            CategoryId = entity.CategoryId,
+            Name = entity.Name,
+            Url = entity.Url,
+        };
+        
+        return View(model);
+    }
+    
+    [HttpPost]
+    public IActionResult CategoryEdit(CategoryModel model)
+    {
+        var entity = _categoryService.GetById(model.CategoryId);
+        if (entity == null)
+        {
+            return NotFound();
+        }
+
+        entity.CategoryId = model.CategoryId;
+        entity.Name = model.Name;
+        entity.Url = model.Url;
+        
+        _categoryService.Update(entity);
+        
+        var msg = new AlertMessage()
+        {
+            Message = $"Category named: {entity.Name} successfully edited.",
+            AlertType = "warning"
+        };
+
+        TempData["message"] = JsonConvert.SerializeObject(msg);
+        
+        return RedirectToAction("CategoryList");
+    }
+    
+    public IActionResult CategoryDelete(int categoryId)
+    {
+        var entity = _categoryService.GetById(categoryId);
+        if (entity != null)
+        {
+            _categoryService.Delete(entity);
+        }
+        var msg = new AlertMessage()
+        {
+            Message = $"Category with Id: {categoryId} successfully deleted.",
+            AlertType = "danger"
+        };
+
+        TempData["message"] = JsonConvert.SerializeObject(msg);
+        return RedirectToAction("CategoryList");
     }
 }

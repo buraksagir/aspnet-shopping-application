@@ -6,6 +6,7 @@
     <div class="col-md-12">
         <h1>Admin Products</h1>
         <hr>
+        <a class="btn btn-primary btn-sm" href="/admin/products/create" style="margin-bottom: 15px">Add Product</a>
         <table class="table table-bordered">
             <thead>
             <tr style="text-align: center">
@@ -53,7 +54,7 @@
                             <td style="width: 70px; text-align: center; align-content: center">
                                 <a href="/admin/products/@item.ProductID" class="btn btn-primary btn-sm m-lg-3">Edit</a>
 
-                                <form action="/admin/deleteproduct" method="POST" style="display: inline">
+                                <form action="/admin/productdelete" method="POST" style="display: inline">
                                     <input type="hidden" name="productId" value="@item.ProductID">
                                     <button type="submit" class="btn btn-danger btn-sm mr-2">Delete</button>
                                 </form>
