@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using shopapp.business.Abstract;
 using shopapp.entity;
 using shopapp.webui.Models;
@@ -8,10 +7,10 @@ namespace shopapp.webui.Controllers
 {
     public class ShopController : Controller
     {
-        private IProductService _productService;
+        private readonly IProductService _productService;
         public ShopController(IProductService productService)
         {
-            this._productService = productService;
+            _productService = productService;
         }
 
         public IActionResult List(string category, int page = 1)
@@ -57,10 +56,5 @@ namespace shopapp.webui.Controllers
             };
             return View(productViewModel);
         }
-
-        // public async Task<IActionResult> AddToCartAsync()
-        // {
-        //     
-        // }
     }
 }

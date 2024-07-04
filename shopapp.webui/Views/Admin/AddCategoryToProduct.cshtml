@@ -1,0 +1,21 @@
+﻿@model ProductCategory
+
+<h1 class="h3">Add Product to Category</h1>
+<hr>
+
+<div class="row">
+    <form asp-controller="Admin" asp-action="AddCategoryToProduct" method="POST">
+        <div class="mb-3">
+            <label asp-for="CategoryId" class="form-label"></label>
+            <input type="text" class="form-control" asp-for="CategoryId">
+        </div>
+     
+        <div class="mb-3">
+            <label asp-for="ProductId" class="form-label"></label>
+            <input type="text" class="form-control" asp-for="ProductId" >
+            <div id="urlHelper" class="form-text">Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" value="Save Category">Save relation</button>
+    </form>
+</div>

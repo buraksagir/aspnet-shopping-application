@@ -1,12 +1,9 @@
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.FileProviders;
 using shopapp.business.Abstract;
 using shopapp.business.Concrete;
 using shopapp.data.Abstract;
 using shopapp.data.Concrete;
 using shopapp.data.Concrete.EfCore;
-using shopapp.entity;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
@@ -44,6 +41,7 @@ app.MapControllerRoute(name: "adminproductedit", pattern: "admin/products/{id?}"
 app.MapControllerRoute(name: "admincategories", pattern: "admin/categories", defaults: new { controller = "Admin", action = "CategoryList" });
 app.MapControllerRoute(name: "admincategorycreate", pattern: "admin/categories/create", defaults: new { controller = "Admin", action = "CategoryCreate" });
 app.MapControllerRoute(name: "admincategoryedit", pattern: "admin/categories/{id?}", defaults: new { controller = "Admin", action = "CategoryEdit" });
+app.MapControllerRoute(name: "adminaddcategorytoproduct", pattern: "admin/addcategorytoproduct/{id?}", defaults: new { controller = "Admin", action = "AddCategoryToProduct" });
 
 
 app.MapControllerRoute(

@@ -22,6 +22,21 @@ namespace shopapp.business.Concrete
             _categoryRepository.Delete(entity);
         }
 
+        public void DeleteFromCategory(int productId, int categoryId)
+        {
+            _categoryRepository.DeleteFromCategory(productId, categoryId);
+        }
+
+        public Category GetByIdWithProducts(int categoryId)
+        {
+            return _categoryRepository.GetByIdWithProducts(categoryId);
+        }
+
+        public void AddCategoryToProduct(int productId, int categoryId)
+        {
+            _categoryRepository.AddCategoryToProduct(productId, categoryId);
+        }
+
         public List<Category> GetAll()
         {
             return _categoryRepository.GetAll();

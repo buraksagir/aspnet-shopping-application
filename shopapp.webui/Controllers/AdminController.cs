@@ -9,8 +9,8 @@ namespace shopapp.webui.Controllers;
 public class AdminController : Controller
 {
 
-    private IProductService _productService;
-    private ICategoryService _categoryService;
+    private readonly IProductService _productService;
+    private readonly ICategoryService _categoryService;
 
     public AdminController(IProductService productService, ICategoryService categoryService)
     {
@@ -171,7 +171,7 @@ public class AdminController : Controller
             return NotFound();
         }
 
-        var entity = _categoryService.GetById((int)id);
+        var entity = _categoryService.GetByIdWithProducts((int)id);
 
         if (entity== null)
         {
@@ -183,6 +183,8 @@ public class AdminController : Controller
             CategoryId = entity.CategoryId,
             Name = entity.Name,
             Url = entity.Url,
+            Products = entity.ProductCategories.Select(p => p.Product).ToList()
+            
         };
         
         return View(model);
@@ -229,5 +231,44 @@ public class AdminController : Controller
 
         TempData["message"] = JsonConvert.SerializeObject(msg);
         return RedirectToAction("CategoryList");
+    }
+
+    [HttpPost]
+    public IActionResult DeleteFromCategory(int productId, int categoryId)
+    {
+        _categoryService.DeleteFromCategory(productId, categoryId);
+        return Redirect($"/admin/categories/{categoryId}");
+    }
+    
+    
+    [HttpGet]
+    public IActionResult AddCategoryToProduct(int? id)
+    {
+        if (id==null)
+        {
+            return NotFound();
+        }
+
+        var category = _categoryService.GetById((int)id);
+
+        if (category== null)
+        {
+            return NotFound();
+        }
+
+        var model = new ProductCategory()
+        {
+            CategoryId = category.CategoryId,
+            
+        };
+        
+        return View(model);
+    }
+
+    [HttpPost]
+    public IActionResult AddCategoryToProduct(int productId, int categoryId)
+    {
+        _categoryService.AddCategoryToProduct(categoryId: categoryId, productId: productId);
+        return Redirect($"/admin/categories/{categoryId}");
     }
 }

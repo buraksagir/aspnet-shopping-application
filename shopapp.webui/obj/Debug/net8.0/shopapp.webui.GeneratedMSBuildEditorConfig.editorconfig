@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\src\projects\aspnet-shopping-application\shopapp.webui
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/AddCategoryToProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnlUb1Byb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/src/projects/aspnet-shopping-application/shopapp.webui/Views/Admin/CategoryCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcnlDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
